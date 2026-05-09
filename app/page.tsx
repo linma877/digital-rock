@@ -10,6 +10,10 @@ export default function DigitalRockManchester() {
 
         <h1 className="text-6xl md:text-7xl font-bold tracking-tight text-yellow-400 drop-shadow-lg">
           Digital Rock @ Manchester
+          
+        </h1>
+        <h1 className="text-6xl md:text-5xl font-bold tracking-tight text-yellow-400 drop-shadow-lg">
+          Dr. Lin Ma's Research lab
         </h1>
 
         <p className="mt-6 max-w-3xl text-xl md:text-2xl text-gray-300 leading-relaxed">
