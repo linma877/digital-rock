@@ -12,22 +12,35 @@ export default function DigitalRockManchester() {
           Digital Rock @ Manchester
           
         </h1>
-        <h1 className="text-6xl md:text-5xl font-bold tracking-tight text-yellow-400 drop-shadow-lg">
+        <h1 className="text-6xl md:text-5xl font-bold tracking-tight text-gray-300 drop-shadow-lg">
+          
           Dr. Lin Ma's Research lab
         </h1>
 
         <p className="mt-6 max-w-3xl text-xl md:text-2xl text-gray-300 leading-relaxed">
-          Multiscale Imaging, Reactive Transport and Subsurface Energy Systems
+          Multiscale and dynamic Imaging, High temperature, High pressure Experiments, Reactive Transport and Subsurface Energy Systems
         </p>
 
         <div className="mt-10 flex gap-4 flex-wrap justify-center">
 
           <button className="px-6 py-3 rounded-2xl bg-yellow-400 text-black font-semibold shadow-xl hover:scale-105 transition-transform">
-            Research
+            Research Theme
+          </button>
+
+           <button className="px-6 py-3 rounded-2xl bg-yellow-400 text-black font-semibold shadow-xl hover:scale-105 transition-transform">
+            Team
+          </button>
+
+            <button className="px-6 py-3 rounded-2xl bg-yellow-400 text-black font-semibold shadow-xl hover:scale-105 transition-transform">
+            Facilities
           </button>
 
           <button className="px-6 py-3 rounded-2xl border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-all">
             Publications
+          </button>
+
+          <button className="px-6 py-3 rounded-2xl border border-gray-500 text-gray-300 hover:border-white hover:text-white transition-all">
+            News
           </button>
 
           <button className="px-6 py-3 rounded-2xl border border-gray-500 text-gray-300 hover:border-white hover:text-white transition-all">
@@ -73,21 +86,31 @@ export default function DigitalRockManchester() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {[
-            {
-              title: "Natural Hydrogen",
-              desc: "Stimulated hydrogen generation and geological hydrogen systems.",
-            },
+            
             {
               title: "Digital Rock Physics",
               desc: "Pore-scale imaging, flow modelling and multiscale characterisation.",
             },
+
             {
+              title: "Advanced and operandoImaging",
+              desc: "Synchrotron imaging, operando CT and 5D characterisation.",
+            },
+                        {
               title: "Underground Energy Storage",
               desc: "Hydrogen, CO₂, CAES and geothermal storage systems.",
             },
             {
-              title: "Advanced Imaging",
-              desc: "Synchrotron imaging, operando CT and 5D characterisation.",
+              title: "Conventional and Unconventional hydrocarbon energy",
+              desc: "Hydrogen, CO₂, CAES and geothermal storage systems.",
+            },
+            {
+              title: "Geothermal Energy",
+              desc: "Hydrogen, CO₂, CAES and geothermal storage systems.",
+            },
+                        {
+              title: "Nuclear Waste Disposal",
+              desc: "Hydrogen, CO₂, CAES and geothermal storage systems.",
             },
           ].map((item, index) => (
 
